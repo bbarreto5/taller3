@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marcas">
+        <item>Mac</item>
+        <item>Hp</item>
+        <item>Dell</item>
+        <item>Samsung</item>
+    </string-array>
+    <string-array name="colores">
+        <item>Blanco</item>
+        <item>Rojo</item>
+        <item>Negro</item>
+        <item>Gris</item>
+    </string-array>
+    <string-array name="tipo" >
+        <item>Casa</item>
+        <item>Portatil</item>
+    </string-array>
+    <string-array name="so">
+        <item>Os</item>
+        <item>Windows</item>
+        <item>Linux</item>
+    </string-array>
+</resources>
