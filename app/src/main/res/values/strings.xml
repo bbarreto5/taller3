@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">taller3</string>
+    <string name="action_settings">Settings</string>
+    <string name="agregar_pc">Crear PC</string>
+    <string name="ram">Ram</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">limpiar</string>
+    <string name="informacion">Información</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="tipo">Tipo</string>
+    <string name="so">Sistema Operativo</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="adicionado">Pc guardado</string>
+</resources>
