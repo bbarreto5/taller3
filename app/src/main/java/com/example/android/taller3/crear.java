@@ -29,14 +29,18 @@ public class crear extends AppCompatActivity {
     }
 
     public void agregar(View v) {
-        String n1 = marca.getSelectedItem().toString();
-        String n2 = ram.getText().toString();
-        String n3 = color.getSelectedItem().toString();
-        String n4 = tipo.getSelectedItem().toString();
-        String n5 = so.getSelectedItem().toString();
-        pc p = new pc(Datos.getId(), R.drawable.u_10167312, n1, n2, n3, n4, n5);
-        p.guardar();
-        Toast.makeText(this, R.string.adicionado, Toast.LENGTH_LONG);
+        if (ram.getText().toString().equals("") || ram.getText().toString().equals("0")){
+            ram.setError("ERROR...");
+        }else {
+            String n1 = marca.getSelectedItem().toString();
+            String n2 = ram.getText().toString();
+            String n3 = color.getSelectedItem().toString();
+            String n4 = tipo.getSelectedItem().toString();
+            String n5 = so.getSelectedItem().toString();
+            pc p = new pc(Datos.getId(), R.drawable.u_10167312, n1, n2, n3, n4, n5);
+            p.guardar();
+            Toast.makeText(this, R.string.adicionado, Toast.LENGTH_LONG);
+        }
     }
     public void limpiar(View v){
         ram.setText("");
